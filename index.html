@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <title>Kathy's page</title> 
 </head>
-<body>
+<body style="font-size: 70%;">
     <h1 style="font-size:32px">Welcome to Kathy's page!</h1>
 
-    <p style="color:rgb(150, 11, 11); font-size: 12px;">Krein<sub><i>1230</i></sub></p>
-    <p style="color:rgb(17, 131, 189); font-size: 12px;"><b>Kathy</b><sub><i>1210</i></sub></p>
-    <p style="color:rgb(11, 157, 6); font-size: 12px;">Yibo<sub><i>9785</i></sub></p><!--斜体i，b加粗-->
+    <p style="color:rgb(150, 11, 11); font-size: 10px;">Krein<sub><i>1230</i></sub></p>
+    <p style="color:rgb(17, 131, 189); font-size: 10px;"><b>Kathy</b><sub><i>1210</i></sub></p>
+    <p style="color:rgb(11, 157, 6); font-size: 10px;">Yibo<sub><i>9785</i></sub></p><!--斜体i，b加粗-->
     <p style="color:white; background-color:black">This is a simple HTML page created by Kathy.</p> 
 <!--strong和b（bold）对应，em（emphasis）对应斜体i，看着一样，但是朗读页面的时候会语调会加重-->
 <!--small将字体变小-->
 
     <hr><!--这是一条水平线-->
 
-    <img src = "yibo.jpg" alt="Yibo's racing car" width="500" height="300"> 
-    <!-- <input type="password" placeholder="Enter your password" > -->
-    
+    <img src = "yibo.jpg" alt="Yibo's racing car" width="50" height="30"> 
+
     <p title="Kathy love Yibo" style="background-color:rgb(212, 249, 223);">Kathy's secret<small>(click me!)</small></p>
     <p style="font-size:120%">I'm Kathy, from <mark style="background-color:rgb(94, 185, 241);">Zhongshan</mark> City in Guangdong Province.</p>
 <!--mark用做标记，高光默认黄色，可用style改background颜色-->
@@ -35,12 +34,23 @@
 <hr>
 <p>这是王一博的<q>百度百科</q>：</p><!--q是quote，给文本添加双引号-->
     <blockquote cite="https://baike.baidu.com/item/%E7%8E%8B%E4%B8%80%E5%8D%9A/15818247">
-        王一博（YiBo），1997年8月5日出生于河南省洛阳市，中国内地影视男演员、流行乐歌手、职业赛车手。2014年，以UNIQ组合成员身份正式出道。2015年，因主演影片《梦想合伙人》而进军影视界。2016年，随组合凭歌曲《EOEO》获美国“International-K Music”音乐奖最佳编舞奖；同年，加入综艺《天天向上》常驻主持阵容“天天兄弟”；主演都市爱情剧《人间至味是清欢》。
+        王一博（YiBo），1997年8月5日出生于河南省洛阳市，中国内地影视男演员、流行乐歌手、职业赛车手。
     </blockquote><!--引用网址上的一大段话，自动缩进-->
+
+<a href="https://baike.baidu.com/item/%E7%8E%8B%E4%B8%80%E5%8D%9A/15818247" title="王一博百度百科" target="_blank">YiBo's CV</a>
+<a href="https://weibo.com/u/5492443184" target="_blank"><img title="Yibo's Helmet" src = "helmet.jpg" alt="Yibo's Helmet" width="45" height="50"></a>
+
 <p>My favorite idol is <abbr title="王一博">YiBo</abbr>, who is a dancer , racer and an actor.
-<!--abbr是abbreviation缩写，使用title在网页中show description，可以在行内（一句话/一段话）使用-->
-<p>Contact me:<address>kat1210@163.com</address></p>
-<!--address将地址信息变斜体，与上下文隔空一行-->
+
+<!--abbr是abbreviation缩写，使用title在网页中show description，可以在行内（一句话/一段话）使用
+cite效果相当于书名号，斜体；address是地址，自动和上下文内容间隔一行；bdo是bi-directional override双向覆盖-->
+
+<p>Today is Jun 30th, the last day of June</p>
+<bdo dir="rtl">Today is Jun 30th, the last day of June</bdo>
+<hr>
+
+<p style="border:5px dashed skyblue;font-size:120%">Hello Kathy!</p>
+<!---border是框框，dashed、solid、dotted、double、groove是可替换的框的格式-->
 
 </body>
 </html>
